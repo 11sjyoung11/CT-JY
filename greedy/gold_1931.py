@@ -13,12 +13,12 @@ for _ in range(n):
     start, end = map(int, sys.stdin.readline().split())
     meeting_times.append((start, end))
 
-# 회의 시간을 종료 시간 기준 및 시작 시간 기준으로 정렬
+# 회의 시간을 종료 시간 기준 및 시작 시간 기준으로 정렬cccccccccccccccccc
 meeting_times = sorted(meeting_times, key = lambda x : (x[1], x[0])) #람다 함수가 기억이 나지 않았다.
 #람다식
 #lambda 인자 : 표현식
 
-# 최대 회의 개수
+# 최대 회의 개수ccccccccccccccc
 count = 1
 # 이전 회의 종료 시간
 end_time = meeting_times[0][1]
